@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Raleway", sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.04em;
+}
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+.text__bold {
+  font-weight: bold;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: #34a853;
+  padding: 1px;
+}
+
+.icons__container {
+  margin: 10px 0;
+  display: inline-block;
+}
+.icon__box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.icon__text {
+  display: inline-block;
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#icon {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  height: 25px;
+  width: 25px;
+}
+
+#container__2 {
+  margin-left: 30px;
+}
+#container__3 {
+  margin-left: 30px;
+}
+.btn__signUp {
+  float: right;
+  padding: 12px;
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: transparent;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 14px;
+  cursor: pointer;
+  outline: none;
+  font-family: Montserrat;
+}
+.btn__forResponsive {
+  display: none;
+}
+section {
+  padding: 1px;
+  width: 100%;
+  height: 570px;
+  background-image: url("../Image/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -128px;
+  position: relative;
+}
+#logo {
+  width: 70px;
+  height: auto;
+  margin-top: 20px;
+}
+.heroArea__textContainer {
+  width: 532px;
+  height: 150px;
+  background-color: #34a853;
+  margin: 120px auto 0 auto;
+  opacity: 0.4;
+  padding: 1px;
+  border-radius: 2px;
+}
+.textImg {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 201px;
+  left: 435px;
+  letter-spacing: 0.2em;
+}
+.heroArea__heading2 {
+  opacity: 1;
+  font-size: 2.25em;
+  margin-top: 30px;
+}
+.heroArea__heading3 {
+  opacity: 1;
+  font-size: 4em;
+  margin-top: 32px;
+  color: #34a853;
+}
+.firstDate__container,
+.secondDate__container,
+.thirdDate__container {
+  position: relative;
+  top: 44px;
+  width: 20px;
+  height: 85px;
+  background-color: #34a853;
+}
+.firstDate__container::before,
+.secondDate__container::before,
+.thirdDate__container::before {
+  display: inline-block;
+  width: 249px;
+  height: 35px;
+  background-color: #34a853;
+  text-align: center;
+  font-size: 1.25em;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding-top: 5px;
+  font-weight: 600;
+  border-radius: 14px;
+}
+.firstDate__container::before {
+  content: "21-Apr-2019";
+}
+.secondDate__container::before {
+  content: "22-Apr-2019";
+}
+.thirdDate__container::before {
+  content: "23-Apr-2019";
+}
+.container__bg,
+.container__bg__two,
+.container__bg__third {
+  width: auto;
+  height: 320px;
+  background-color: #fbfbfb;
+}
+.first__iconContainer,
+.second__iconContainer,
+.third__iconContainer {
+  display: flex;
+  padding-top: 25px;
+}
+.landing__container,
+.firstHotel__container,
+.firstNight__container,
+.secondHotel__container,
+.secondNight__container,
+.thirdBreakfast__container,
+.car__container,
+.thirdNight__container,
+.lunch__container {
+  width: 32%;
+  text-align: center;
+  position: relative;
+}
+#arrival,
+#hotel,
+#firstBed,
+#breakfastThird,
+#car,
+#thirdBed {
+  width: 70px;
+  height: auto;
+}
+.number__container {
+  display: flex;
+}
+.landing__first,
+.hotel__second,
+.night__third {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #34a853;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px auto 0 auto;
+}
+.horizontalLine__first,
+.horizontalLine__second {
+  position: absolute;
+  width: 312px;
+  border: 1px dashed #34a853;
+  top: 132px;
+  left: 208px;
+}
+.horizontalLine__third,
+.horizontalLine__third__two {
+  position: absolute;
+  width: 233px;
+  border: 1px dashed #34a853;
+  top: 132px;
+  left: 169px;
+}
+.clock__container,
+.location__container,
+.call__container {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 114px;
+}
+.secondClock__container,
+.secondLocation__container,
+.secondCall__container {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 66px;
+}
+.secondLocation__container,
+.secondCall__container {
+  margin-top: 10px;
+}
+.secondClock__containerr,
+.thirdClock__containerr {
+  margin-top: 50px;
+}
+.secondCall__containerThird {
+  margin-top: 50px;
+}
+.location__container,
+.call__container {
+  margin-top: 10px;
+}
+#clock,
+#placeholder,
+#call {
+  width: 25px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.time__text {
+  display: inline;
+}
+.call__containerThird {
+  margin-top: 50px;
+}
+/****************** 1440px *****************/
+@media only screen and (min-width: 1440px) {
+  .textImg {
+    left: 477px;
+  }
+}
+/****************** 1024px *****************/
+@media only screen and (max-width: 1024px) {
+  .row {
+    width: 1024px;
+  }
+  .icons__container {
+    margin: 10px 0 10px 14px;
+  }
+  .btn__signUp {
+    margin-right: 20px;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  section {
+    background-position: 0px -27px;
+  }
+  .textImg {
+    left: 271px;
+  }
+  .horizontalLine__first,
+  .horizontalLine__second {
+    width: 266px;
+    left: 196px;
+  }
+  .clock__container,
+  .location__container,
+  .call__container {
+    margin-left: 97px;
+  }
+  .horizontalLine__third,
+  .horizontalLine__third__two {
+    width: 200px;
+    left: 159px;
+  }
+  .secondClock__container,
+  .secondLocation__container,
+  .secondCall__container {
+    margin-left: 52px;
+  }
+  /****************** 768px *****************/
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+    .row {
+      width: 760px;
+    }
+    .icon__box {
+      width: 40px;
+      height: 40px;
+      vertical-align: sub;
+    }
+    .icon__text {
+      margin-left: 8px;
+    }
+    #icon {
+      top: 9px;
+      left: 9px;
+      width: 19px;
+      height: 19px;
+    }
+    section {
+      height: 385px;
+      background-position: 0px -53px;
+    }
+    #container__2,
+    #container__3 {
+      margin-left: 15px;
+    }
+    .btn__signUp {
+      font-size: 0.75em;
+      margin-top: 12px;
+      padding: 10px;
+    }
+    .heroArea__textContainer {
+      margin-top: 55px;
+    }
+    .textImg {
+      top: 143px;
+      left: 171px;
+    }
+    .container__bg,
+    .container__bg__two,
+    .container__bg__third {
+      height: 350px;
+    }
+    .horizontalLine__first,
+    .horizontalLine__second {
+      width: 192px;
+      left: 149px;
+    }
+    .clock__container,
+    .location__container,
+    .call__container {
+      margin-left: 48px;
+    }
+    .secondClock__container,
+    .secondLocation__container,
+    .secondCall__container {
+      margin-left: 15px;
+    }
+    .horizontalLine__third,
+    .horizontalLine__third__two {
+      width: 145px;
+      left: 118px;
+    }
+  }
+
+  /****************** 425px *****************/
+  @media only screen and (max-width: 425px) {
+    .row {
+      width: 425px;
+    }
+    .icons__container {
+      margin: 10px 0 0 14px;
+    }
+    .btn__signUp {
+      display: none;
+    }
+    .btn__forResponsive {
+      display: block;
+      float: right;
+      color: blue;
+      margin-top: 20px;
+      margin-right: 40px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    #logo {
+      margin-left: 10px;
+      width: 60px;
+    }
+    section {
+      height: 231px;
+      background-position: 0px -18px;
+    }
+    .heroArea__textContainer {
+      margin-top: 10px;
+      width: 330px;
+      height: 118px;
+    }
+    .textImg {
+      top: 92px;
+      left: 74px;
+    }
+    .heroArea__heading2 {
+      font-size: 1.5em;
+      margin-top: 13px;
+    }
+    .heroArea__heading3 {
+      font-size: 2.6em;
+      margin-top: 10px;
+    }
+    .landing__first {
+      position: relative;
+      bottom: 100px;
+      right: 153px;
+    }
+    .container__bg {
+      height: 778px;
+    }
+    .container__bg__two {
+      height: 935px;
+    }
+    .container__bg__third {
+      height: 778px;
+    }
+    .first__iconContainer,
+    .second__iconContainer,
+    .third__iconContainer {
+      display: block;
+    }
+    .landing__container,
+    .firstHotel__container,
+    .firstNight__container,
+    .secondHotel__container,
+    .secondNight__container,
+    .thirdBreakfast__container,
+    .car__container,
+    .thirdNight__container,
+    .lunch__container {
+      width: 100%;
+      margin-top: 35px;
+    }
+    .horizontalLine__first,
+    .horizontalLine__second {
+      height: 224px;
+      left: 58px;
+      top: 58px;
+      width: 0;
+    }
+    .horizontalLine__second {
+      top: 70px;
+    }
+    .clock__container,
+    .location__container,
+    .call__container {
+      margin-left: 146px;
+    }
+    .clock__container {
+      margin-top: -25px;
+    }
+    .hotel__second {
+      position: relative;
+      bottom: 89px;
+      right: 153px;
+    }
+    .night__third {
+      position: relative;
+      bottom: 79px;
+      right: 153px;
+    }
+    .call__containerThird {
+      margin-top: -15px;
+    }
+    .horizontalLine__third {
+      height: 175px;
+      left: 58px;
+      top: 58px;
+      width: 0;
+    }
+    .horizontalLine__third__two {
+      height: 222px;
+      left: 58px;
+      top: 69px;
+      width: 0;
+    }
+    .secondClock__containerr {
+      margin-top: -10px;
+    }
+    .secondClock__container,
+    .secondLocation__container,
+    .secondCall__container {
+      margin-left: 146px;
+    }
+    .secondClock__container {
+      margin-top: -25px;
+    }
+    #__third {
+      height: 155px;
+      top: 78px;
+    }
+    .secondCall__containerThird {
+      margin-top: -10px;
+    }
+    .thirdClock__containerr {
+      margin-top: -10px;
+    }
+    #horizontalLine__one {
+      height: 164px;
+    }
+  }
+  /****************** 375px *****************/
+  @media only screen and (max-width: 375px) {
+    .row {
+      width: 375px;
+    }
+    .icon__text {
+      font-size: 12px;
+    }
+    .textImg {
+      top: 101px;
+      left: 38px;
+    }
+    .horizontalLine__first,
+    .horizontalLine__second {
+      left: 34px;
+    }
+    .clock__container,
+    .location__container,
+    .call__container,
+    .secondClock__container,
+    .secondLocation__container,
+    .secondCall__container {
+      margin-left: 117px;
+    }
+    .horizontalLine__third {
+      height: 166px;
+      left: 34px;
+    }
+    .horizontalLine__third__two {
+      left: 34px;
+    }
+  }
+  /****************** 320px *****************/
+  @media only screen and (max-width: 320px) {
+    .row {
+      width: 320px;
+    }
+    .icons__container {
+      margin: 10px 0 0 14px;
+    }
+    #container__2,
+    #container__3 {
+      margin: 10px 0 0 14px;
+    }
+    #logo {
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 40px;
+    }
+    .btn__forResponsive {
+      float: none;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    section {
+      height: 196px;
+      background-position: 0px -5px;
+    }
+    .textImg {
+      left: 13px;
+    }
+    .heroArea__heading2 {
+      margin-top: 0;
+    }
+    .landing__first,
+    .hotel__second,
+    .night__third {
+      right: 116px;
+    }
+    .clock__container,
+    .location__container,
+    .call__container,
+    .secondClock__container,
+    .secondLocation__container,
+    .secondCall__container {
+      margin-left: 91px;
+    }
+    .horizontalLine__first,
+    .horizontalLine__second {
+      left: 43px;
+    }
+    .horizontalLine__third,
+    .horizontalLine__third__two {
+      left: 44px;
+    }
+    .horizontalLine__third {
+      height: 167px;
+    }
+  }
+}
